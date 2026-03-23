@@ -28,7 +28,7 @@ const portfolioProjects = [
         description: "A responsive sports blog focusing on modern UI design, semantic HTML, and cross-browser visual consistency.",
         techStack: ["HTML", "CSS", "JavaScript"],
         image: "https://github.com/user-attachments/assets/d8e1119a-2b99-491b-be82-897fa4937fda",
-        demoLink: "",
+        demoLink: "https://coding-samurai-task3-footy-blog.vercel.app/",
         githubLink: "https://github.com/moaadil10/Coding-Samurai-Task3-Footy-Blog",
         featured: false
     },
@@ -37,7 +37,7 @@ const portfolioProjects = [
         description: "An interactive, fully functional web-based calculator demonstrating JavaScript logic, state control, and DOM manipulation.",
         techStack: ["HTML", "CSS", "JavaScript"],
         image: "https://github.com/user-attachments/assets/12927803-f477-4948-888e-b5a90d632596",
-        demoLink: "",
+        demoLink: "https://coding-samurai-task1-classic-calcul.vercel.app/",
         githubLink: "https://github.com/moaadil10/Coding-Samurai-Task1-Classic-Calculator",
         featured: false
     },
@@ -46,7 +46,7 @@ const portfolioProjects = [
         description: "A sleek task manager application allowing users to add, complete, and organize daily tasks efficiently with DOM persistence.",
         techStack: ["HTML", "CSS", "JavaScript"],
         image: "https://github.com/user-attachments/assets/f4eb6904-4998-42db-ac3f-ed5462aa6f71",
-        demoLink: "",
+        demoLink: "https://coding-samurai-task2-to-do-list.vercel.app/",
         githubLink: "https://github.com/moaadil10/Coding-Samurai-Task2-To-Do-List",
         featured: false
     }
