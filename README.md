@@ -3,7 +3,7 @@
 A sleek, hyper-responsive personal portfolio website engineered for speed, premium aesthetics, and scalable dynamic data-loading. Built as a Vanilla frontend application emphasizing zero-dependency CSS architecture and advanced Intersection Observer animations.
 
 ## 🚀 Live Demo
-*(Insert your GitHub Pages link here once hosted! e.g., https://moaadil10.github.io/Aadil-Portfolio)*
+https://mohammed-aadil-portfolio.vercel.app/
 
 ## 🛠️ Tech Stack
 -   **HTML5:** Semantic architecture focusing on accessibility.
