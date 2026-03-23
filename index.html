@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Aadil | Software Engineer</title>
+
+    <!-- Clean Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Boxicons for standard UI icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">Aadil<span>.</span></a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="btn-primary-sm nav-cta">Get in Touch</a></li>
+            </ul>
+
+            <!-- Mobile Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-content fade-up">
+                    <p class="hero-greeting">Hi, my name is</p>
+                    <h1 class="hero-name">Mohammed Aadil.</h1>
+                    <h2 class="hero-title">I build robust software solutions.</h2>
+                    <p class="hero-desc">
+                        I'm a <strong>Software Engineer</strong> specializing in ASP.NET Core and Full-Stack .NET
+                        development. With 2+ years of experience delivering RESTful APIs and building robust
+                        production-grade systems for the global travel industry.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#experience" class="btn btn-primary">View Experience</a>
+                        <a href="resume.pdf" id="resume-btn" target="_blank" download="Mohammed_Aadil_Resume.pdf" class="btn btn-outline" style="display: none;"><i class='bx bx-file'></i> Resume</a>
+                        <a href="https://github.com/moaadil10" target="_blank" class="btn btn-outline"><i
+                                class='bx bxl-github'></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/mohammed-aadil10/" target="_blank"
+                            class="btn btn-outline"><i class='bx bxl-linkedin'></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="hero-graphic fade-up delay-1">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape-glass">
+                        <i class='bx bx-code-block'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">01.</span> Professional Summary</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="about-content fade-up delay-1">
+                    <div class="about-text">
+                        <p>I am a Software Engineer with 2+ years of experience building production-grade backend
+                            systems using <strong>ASP.NET Core, C#, and Entity Framework Core</strong>.</p>
+                        <p>Currently, I deliver RESTful APIs for a live Central Reservation System (CRS) platform
+                            serving the global travel industry. My hands-on work includes JWT authentication, SQL
+                            optimisation, Redis caching, and complex third-party airline API integrations.</p>
+                        <p>I am highly comfortable working in Agile teams, taking ownership of modules from requirement
+                            to deployment, and collaborating across QA and frontend functions. Alongside my robust
+                            backend architecture capabilities, I have built complete full-stack projects end-to-end
+                            using Angular and SQL Server.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">02.</span> Technical Skills</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="skills-grid fade-up delay-1">
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-code-curly'></i></div>
+                        <h3>Backend</h3>
+                        <p class="skill-tags">
+                            <span>ASP.NET Core 8</span>
+                            <span>ASP.NET MVC</span>
+                            <span>Web API</span>
+                            <span>C#</span>
+                            <span>.NET Core</span>
+                        </p>
+                    </div>
+                    <!-- ORM & DB -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-data'></i></div>
+                        <h3>ORM & DB</h3>
+                        <p class="skill-tags">
+                            <span>Entity Framework Core</span>
+                            <span>SQL Server</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                        </p>
+                    </div>
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-layout'></i></div>
+                        <h3>Frontend</h3>
+                        <p class="skill-tags">
+                            <span>Angular (Standalone)</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>HTML & CSS</span>
+                            <span>Bootstrap 5</span>
+                        </p>
+                    </div>
+                    <!-- API & Auth -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-plug'></i></div>
+                        <h3>API & Auth</h3>
+                        <p class="skill-tags">
+                            <span>RESTful APIs</span>
+                            <span>SOAP/WSDL</span>
+                            <span>JWT Authentication</span>
+                            <span>Swagger/OpenAPI</span>
+                            <span>XML / JSON</span>
+                        </p>
+                    </div>
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-wrench'></i></div>
+                        <h3>Tools & Analytics</h3>
+                        <p class="skill-tags">
+                            <span>Git & GitHub</span>
+                            <span>Postman</span>
+                            <span>Jira</span>
+                            <span>Chart.js</span>
+                            <span>jsPDF</span>
+                        </p>
+                    </div>
+                    <!-- Concepts -->
+                    <div class="skill-category">
+                        <div class="skill-icon"><i class='bx bx-brain'></i></div>
+                        <h3>Architecture Concepts</h3>
+                        <p class="skill-tags">
+                            <span>OOP & SOLID Principles</span>
+                            <span>MVC & Clean Architecture</span>
+                            <span>RBAC</span>
+                            <span>Agile / Scrum</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">03.</span> Professional Experience</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="timeline fade-up delay-1">
+
+                    <!-- Job 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2024 – Present</span>
+                            <h3 class="timeline-title">Software Engineer</h3>
+                            <h4 class="timeline-company"><a href="https://www.benzyinfotech.com/" target="_blank"
+                                    class="timeline-link">Benzy Infotech <i class='bx bx-link-external'></i></a> |
+                                Kochi, India</h4>
+                            <p class="timeline-project">
+                                <strong>Products:</strong>
+                                <a href="https://www.benzyinfotech.com/products/web-connect" target="_blank"
+                                    class="timeline-project-link">WebConnect <i class='bx bx-link-external'></i></a>
+                                &amp;
+                                <a href="https://www.benzyinfotech.com/products/travel-booking-engine" target="_blank"
+                                    class="timeline-project-link">Travel Booking Engine (CRS) <i
+                                        class='bx bx-link-external'></i></a>
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Engineered core backend architectural modules for <strong>WebConnect</strong> and
+                                    the central <strong>Travel Booking Engine</strong>, a comprehensive B2B/B2C travel
+                                    portal solution driving real-time flight inventory distribution and booking
+                                    aggregation.</li>
+                                <li>Reduced booking failure rate by strengthening ASP.NET Core business logic and
+                                    tightening SOAP/WSDL request validation against live airline APIs.</li>
+                                <li>Improved API response time by approximately 20% through targeted MySQL query
+                                    optimisation and Redis caching on high-frequency flight-search endpoints.</li>
+                                <li>Built and maintained 10+ RESTful API endpoints in C# covering real-time fare
+                                    retrieval, seat availability, booking confirmation, and cancellation flows.</li>
+                                <li>Documented all internal APIs using Swagger/OpenAPI, giving frontend and QA teams a
+                                    reliable reference.</li>
+                                <li>Implemented global exception handling middleware and structured logging, reducing
+                                    mean time to resolve production incidents.</li>
+                                <li>Resolved API defects using Postman, coordinating fixes with QA and frontend teams
+                                    through Jira.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Job 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Aug 2023 – Jan 2024</span>
+                            <h3 class="timeline-title">ASP.NET Full Stack Trainee</h3>
+                            <h4 class="timeline-company">Luminar Technolab | Kochi, India</h4>
+                            <ul class="timeline-bullets">
+                                <li>Completed intensive production-aligned training in C#, ASP.NET MVC/Core, Angular,
+                                    and Windows Forms.</li>
+                                <li>Built an E-Commerce web application as a capstone project using layered
+                                    architecture, backend integration, and MySQL for data persistence.</li>
+                                <li>Practised Git/GitHub workflows within an Agile team structure to simulate real
+                                    sprint-based environments.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Job 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Nov 2023 – Dec 2023</span>
+                            <h3 class="timeline-title">Web Development Intern</h3>
+                            <h4 class="timeline-company">Coding Samurai | Remote</h4>
+                            <ul class="timeline-bullets">
+                                <li>Built 3 responsive web projects — Task Manager, Calculator, and a Football Blog —
+                                    using HTML, CSS, and JavaScript.</li>
+                                <li>Fixed cross-browser layout bugs and applied clean, reusable component structures.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Job 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023</span>
+                            <h3 class="timeline-title">Cyber Security Intern</h3>
+                            <h4 class="timeline-company">EYEQDOTNET | Remote</h4>
+                            <ul class="timeline-bullets">
+                                <li>Assisted in vulnerability analysis and basic security assessments, drawing on BCA
+                                    Cyber Forensics specialisation coursework.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">04.</span> Open Source Projects</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="projects-grid" id="project-grid">
+                    <!-- Project cards are dynamically injected here via script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">05.</span> Specialized Services</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card zoom-in stagger-1">
+                        <div class="service-icon"><i class='bx bx-laptop'></i></div>
+                        <h3 class="service-title">1. Web App Development</h3>
+                        <p class="service-desc">End-to-end full stack web applications using ASP.NET Core and Angular,
+                            including CRMs, Dashboards, and Management Systems.</p>
+                        <div class="service-tags">
+                            <span>ASP.NET Core</span><span>Angular</span><span>MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card zoom-in stagger-2">
+                        <div class="service-icon"><i class='bx bx-server'></i></div>
+                        <h3 class="service-title">2. REST API Development</h3>
+                        <p class="service-desc">Robust HTTP Web APIs with JWT authentication, optimized CRUD layers, and
+                            bulletproof architecture.</p>
+                        <div class="service-tags">
+                            <span>Web API</span><span>C#</span><span>JWT</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card zoom-in stagger-3">
+                        <div class="service-icon"><i class='bx bx-data'></i></div>
+                        <h3 class="service-title">3. Database Architecture</h3>
+                        <p class="service-desc">Scalable database design, rigorous normalization, stored procedures, and
+                            complex query optimizations.</p>
+                        <div class="service-tags">
+                            <span>MySQL</span><span>SQL Server</span><span>EF Core</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card zoom-in stagger-1">
+                        <div class="service-icon"><i class='bx bxl-angular'></i></div>
+                        <h3 class="service-title">4. Frontend UI/UX</h3>
+                        <p class="service-desc">Dynamic administrative interfaces, rigorous form validations, and fully
+                            responsive layouts tied to live APIs.</p>
+                        <div class="service-tags">
+                            <span>Angular</span><span>Bootstrap 5</span><span>TypeScript</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card zoom-in stagger-2">
+                        <div class="service-icon"><i class='bx bx-terminal'></i></div>
+                        <h3 class="service-title">5. Support & Bug Fixing</h3>
+                        <p class="service-desc">Rapid crisis response and troubleshooting for existing ASP.NET/Angular
+                            codebases, database anomalies, and critical API failures.</p>
+                        <div class="service-tags">
+                            <span>Debugging</span><span>Optimization</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card zoom-in stagger-3">
+                        <div class="service-icon"><i class='bx bx-network-chart'></i></div>
+                        <h3 class="service-title">6. API Integrations</h3>
+                        <p class="service-desc">High-value integration bridging third-party global providers ranging
+                            from live airline WebServices to highly secure Payment Gateways.</p>
+                        <div class="service-tags">
+                            <span>SOAP/WSDL</span><span>3rd-Party Endpoints</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="education section">
+            <div class="container">
+                <div class="section-heading fade-up">
+                    <h2><span class="heading-num">06.</span> Education & Certifications</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="edu-grid fade-up delay-1">
+
+                    <div class="edu-column">
+                        <div class="edu-card glass-panel">
+                            <div class="edu-header">
+                                <i class='bx bxs-graduation'></i>
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                            </div>
+                            <div class="edu-body">
+                                <h4>Yenepoya University, Mangalore</h4>
+                                <p class="edu-date">2020 – 2023</p>
+                                <p class="edu-desc"><strong>Specialisation:</strong> Cyber Forensics, Cyber Security &
+                                    Data Analytics</p>
+                            </div>
+                        </div>
+
+                        <div class="edu-card glass-panel">
+                            <div class="edu-header">
+                                <i class='bx bxs-school'></i>
+                                <h3>Pre-University, Computer Science</h3>
+                            </div>
+                            <div class="edu-body">
+                                <h4>Sreepuram English Medium High School and Junior College</h4>
+                                <p class="edu-date">Jul 2018 – Apr 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edu-card glass-panel cert-card">
+                        <div class="edu-header">
+                            <i class='bx bx-certification'></i>
+                            <h3>Certifications</h3>
+                        </div>
+                        <ul class="cert-list">
+                            <li><i class='bx bx-check'></i> <strong>ASP.NET Full Stack Certification</strong> — NACTET
+                                via Luminar Technolab <em>(Physical)</em></li>
+                            <li><i class='bx bx-check'></i> <a
+                                    href="https://www.udemy.com/certificate/UC-291be7d3-0294-49a8-9fc2-f5e3c5957d63/"
+                                    target="_blank" class="cert-link"><strong>C# Programming with Examples</strong> —
+                                    Udemy <i class='bx bx-link-external'></i></a></li>
+                            <li><i class='bx bx-check'></i> <a
+                                    href="https://www.udemy.com/certificate/UC-273a4f5e-b5bb-4cd6-b2bd-6d56cba0725a/"
+                                    target="_blank" class="cert-link"><strong>Git & GitHub</strong> — Udemy <i
+                                        class='bx bx-link-external'></i></a></li>
+                            <li><i class='bx bx-check'></i> <a
+                                    href="https://www.udemy.com/certificate/UC-48116bcb-48cd-4e41-81cd-5c1be09d4273/"
+                                    target="_blank" class="cert-link"><strong>CSS Web Development</strong> — Udemy <i
+                                        class='bx bx-link-external'></i></a></li>
+                            <li><i class='bx bx-check'></i> <a
+                                    href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS122S5396016210038159"
+                                    target="_blank" class="cert-link"><strong>Python Programming (Score: 79%)</strong> —
+                                    IIT Madras — NPTEL / Swayam <i class='bx bx-link-external'></i></a></li>
+                            <li><i class='bx bx-check'></i> <a
+                                    href="https://www.credly.com/badges/5b45acec-8db3-48c2-8179-f9fc729c6368"
+                                    target="_blank" class="cert-link"><strong>Cyber Security Professional
+                                        Certificate</strong> — IBM (Credly Verified) <i
+                                        class='bx bx-link-external'></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-grid fade-up">
+
+                    <!-- Contact Info (Left Side) -->
+                    <div class="contact-info-panel">
+                        <p class="pre-title">What's Next?</p>
+                        <h2 class="contact-title">Let's Connect</h2>
+                        <p class="contact-desc">
+                            My inbox is always open. Whether you have a question, a project offer, or just want to chat
+                            about code, I'll try my best to get back to you!
+                        </p>
+                        <div class="contact-details-list">
+                            <span class="contact-item"><i class='bx bx-envelope'></i>
+                                mohammedaadilashik@gmail.com</span>
+                            <span class="contact-item"><i class='bx bx-map'></i> Kochi, India</span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Right Side) -->
+                    <div class="contact-form-panel glass-panel">
+                        <!-- Contact Form Integration (Web3Forms API) -->
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <input type="hidden" name="access_key" value="023c99dc-477f-4e7a-b703-cf7cd5375e63">
+
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" name="email" required
+                                    placeholder="john@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject (Optional)</label>
+                                <input type="text" id="form-subject" name="subject" placeholder="Project Inquiry">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" name="message" rows="5" required
+                                    placeholder="Hi Mohammed, I'd like to talk about..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">Send Message <i
+                                    class='bx bx-send'></i></button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="https://github.com/moaadil10" target="_blank" aria-label="GitHub"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/mohammed-aadil10/" target="_blank" aria-label="LinkedIn"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
+            <p>&copy; 2026 Built by Mohammed Aadil</p>
+        </div>
+    </footer>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
